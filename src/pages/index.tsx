@@ -1,8 +1,4 @@
 import React from "react"
-import Head from "next/head";
-import Banner from "@/components/Banner";
-import { Button } from "@/components/ui/button";
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@radix-ui/react-navigation-menu";
 import Layout from "@/app/layout";
 
 const Home: React.FC = () => {
