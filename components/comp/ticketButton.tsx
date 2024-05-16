@@ -24,7 +24,7 @@ export function DrawerDialogDemo() {
                         Buckle up and we are off !
                     </DrawerDescription>
                     <div className="flex justify-center py-5">
-                        <img src="/ticket.png" width="300px">
+                        <img src="/ticket.jpeg" width="300px">
                         </img>
                     </div>
 
