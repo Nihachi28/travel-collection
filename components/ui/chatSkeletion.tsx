@@ -24,7 +24,7 @@ export function AvatarDemo() {
             <div className="flex justify-end py-2">
                 <div className="chat-content">
                     <p className="font-semibold">Yan.Wang</p>
-                    Why not? Let's go!
+                    Why not? Let&apos;s go!
                 </div>
                 <div className="pr-8 pl-3">
                     <Avatar>
