@@ -1,8 +1,9 @@
-import { AvatarDemo } from "@/components/ui/chatSkeletion";
-import Footer from "@/components/ui/footer";
-import Header from "@/components/ui/header";
-import { ScrollAreaHorizontalDemo } from "@/components/ui/photos";
-import SearchBox from "@/components/ui/searchBox";
+import { AvatarDemo } from "@/components/comp/chatSkeletion";
+import Footer from "@/components/comp/footer";
+import Header from "@/components/comp/header";
+import { ScrollAreaHorizontalDemo } from "@/components/comp/photos";
+import { ScrollAreaHorizontalDemo2 } from "@/components/comp/photos copy";
+import SearchBox from "@/components/comp/searchBox";
 
 export default function RootLayout({
   children,
@@ -17,8 +18,8 @@ export default function RootLayout({
         <SearchBox />
       </div>
       <div className="h-8 w-full"></div>
-      <div className="w-3/4">
-        <div className="log-section">
+      <div className="flex justify-center">
+        <div className="log-section w-full">
           <AvatarDemo />
         </div>
       </div>
@@ -27,7 +28,13 @@ export default function RootLayout({
       <div>
         <ScrollAreaHorizontalDemo />
       </div>
-      <Footer />
+      <div>
+        <ScrollAreaHorizontalDemo2 />
+      </div>
+      <div className="h-3 w-full"></div>
+      <div className="w-full h-5">
+        <Footer />
+      </div>
     </div>
   )
 }

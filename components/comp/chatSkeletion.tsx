@@ -3,8 +3,9 @@ import {
     AvatarFallback,
     AvatarImage,
 } from "@/components/ui/avatar"
-import { ExclamationTriangleIcon } from "@radix-ui/react-icons"
-import { Alert, AlertTitle, AlertDescription } from "./alert"
+import { DrawerDialogDemo } from "./ticketButton"
+
+
 
 export function AvatarDemo() {
     return (
@@ -12,7 +13,7 @@ export function AvatarDemo() {
             <div className="flex justify-start py-2">
                 <div className="pl-8 pr-3">
                     <Avatar>
-                        <AvatarImage src="/images/av1.jpeg" alt="@shadcn" />
+                        <AvatarImage src="/images/av1.jpeg" alt="@shadcn"/>
                         <AvatarFallback>CN</AvatarFallback>
                     </Avatar>
                 </div>
@@ -44,6 +45,9 @@ export function AvatarDemo() {
                     <p className="font-semibold">Eugene.Yeung</p>
                     🛫 Take off! 
                 </div>
+            </div>
+            <div className="flex justify-center py-2">
+                <DrawerDialogDemo/>
             </div>
         </div>
     )

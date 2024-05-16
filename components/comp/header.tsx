@@ -1,5 +1,4 @@
 import Logo from '@/public/images/cable-car-solid.svg';
-import { Link } from 'lucide-react';
 
 export default function Header() {
     return (

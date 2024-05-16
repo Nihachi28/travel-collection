@@ -11,43 +11,27 @@ export interface Artwork {
 export const works: Artwork[] = [
     {
         artist: "Eugene.Yeung",
-        art: "/01.jpeg",
-    },
-    {
-        artist: "Yan.Wang",
-        art: "/02.jpeg",
-    },
-    {
-        artist: "Yijun.Yang",
-        art: "/03.jpeg",
-    },
-    {
-        artist: "Yanwei.Wang",
-        art: "/04.jpeg",
-    },
-    {
-        artist: "Tom Byrom",
-        art: "/05.jpeg",
-    },
-    {
-        artist: "Vladimir Malyavko",
-        art: "/06.jpeg",
-    },
-    {
-        artist: "Ornella Binni",
         art: "/07.jpeg",
     },
     {
-        artist: "Tom Byrom",
+        artist: "Eugene.Yeung",
         art: "/08.jpeg",
     },
     {
-        artist: "Vladimir Malyavko",
-        art: "/IMG_4247.JPG",
+        artist: "Eugene.Yeung",
+        art: "/09.jpeg",
     },
+    {
+        artist: "Yan.Wang",
+        art: "/11.jpeg",
+    },
+    {
+        artist: "Yijun.Yang",
+        art: "/10.jpeg",
+    }
 ]
 
-export function ScrollAreaHorizontalDemo() {
+export function ScrollAreaHorizontalDemo2() {
     return (
         <ScrollArea className="w-full whitespace-nowrap rounded-md border">
             <div className="flex w-max space-x-4 p-4">
@@ -70,8 +54,8 @@ export function ScrollAreaHorizontalDemo() {
                         </figcaption>
                     </figure>
                 ))}
+                <ScrollBar  orientation="horizontal"/>
             </div>
-            <ScrollBar orientation="horizontal" />
         </ScrollArea>
     )
 }

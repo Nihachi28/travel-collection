@@ -8,7 +8,7 @@ const SearchBox: React.FC = () => {
             <div className="search-box w-full max-w-xl">
                 <input
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Japan travel guide..."
                     className="w-full p-2 border border-gray-300 rounded-md focus:outline-none"
                 />
             </div>
